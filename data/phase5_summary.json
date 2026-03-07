@@ -1,0 +1,33 @@
+{
+  "strategies": {
+    "A": {
+      "description": "文字数ベース chunk_size=500 overlap=50",
+      "avg_keyword_score": 0.166,
+      "avg_precision": 0.573,
+      "avg_recall": 0.783,
+      "avg_f1": 0.637
+    },
+    "B": {
+      "description": "文字数ベース chunk_size=200 overlap=20",
+      "avg_keyword_score": 0.133,
+      "avg_precision": 0.468,
+      "avg_recall": 0.867,
+      "avg_f1": 0.573
+    },
+    "C": {
+      "description": "セクションベース分割",
+      "avg_keyword_score": 0.118,
+      "avg_precision": 0.448,
+      "avg_recall": 0.767,
+      "avg_f1": 0.526
+    },
+    "D": {
+      "description": "セクションベース分割＋セクションフィルタ",
+      "avg_keyword_score": 0.315,
+      "avg_precision": 0.883,
+      "avg_recall": 0.883,
+      "avg_f1": 0.867
+    }
+  },
+  "conclusion": "戦略D（セクションベース分割＋セクションフィルタ）が全指標で最良。単純なチャンクサイズ変更（戦略B・C）は効果がなく、メタデータを活用した検索設計が精度改善に有効であることが示された。"
+}

@@ -1,0 +1,293 @@
+{
+  "strategy": "B",
+  "description": "文字数ベース chunk_size=200 overlap=20",
+  "avg_keyword_score": 0.108,
+  "avg_precision": 0.65,
+  "avg_recall": 0.667,
+  "avg_f1": 0.63,
+  "details": [
+    {
+      "id": "Q01",
+      "category": "禁忌",
+      "question": "メトホルミンの禁忌を教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名は不明です。",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "乳酸アシドーシス",
+        "重度の腎機能障害",
+        "eGFR",
+        "30ml/min/1.73m2未満",
+        "重度の肝機能障害",
+        "低酸素血症",
+        "脱水",
+        "重症ケトーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術",
+        "妊娠",
+        "過敏症",
+        "アルコール"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "retrieved_files": [
+        "metformin.pdf",
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "metformin.pdf"
+      ]
+    },
+    {
+      "id": "Q02",
+      "category": "用法用量",
+      "question": "グリメピリドの用法・用量を教えてください",
+      "answer": "グリメピリドの用法・用量は、通常、1日0.5～1 mgから開始し、1日1～2回、朝または朝夕、食前または食後に経口投与します。維持量は通常1日1～4 mgで、必要に応じて適宜増減します。なお、1日最高投与量は6 mgまでとされています。\n\n参照文書名: 医薬品添付文書",
+      "keyword_score": 0.6,
+      "matched_keywords": [
+        "1日1～2回",
+        "朝",
+        "食前",
+        "食後",
+        "維持量",
+        "最高投与量"
+      ],
+      "unmatched_keywords": [
+        "0.5mg",
+        "1mg",
+        "1～4mg",
+        "6mg"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "glimepiride.pdf"
+      ],
+      "relevant_docs": [
+        "glimepiride.pdf"
+      ]
+    },
+    {
+      "id": "Q03",
+      "category": "副作用",
+      "question": "エンパグリフロジンの主な副作用を教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: エンパグリフロジン 添付文書",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "低血糖",
+        "脱水",
+        "ケトアシドーシス",
+        "腎盂腎炎",
+        "尿路感染症",
+        "膀胱炎",
+        "頻尿",
+        "多尿",
+        "口渇",
+        "体重減少"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf"
+      ]
+    },
+    {
+      "id": "Q04",
+      "category": "禁忌",
+      "question": "オゼンピックの禁忌を教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 提供された情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "過敏症",
+        "糖尿病性ケトアシドーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "retrieved_files": [
+        "insulin_aspart.pdf",
+        "metformin.pdf"
+      ],
+      "relevant_docs": [
+        "semaglutide.pdf"
+      ]
+    },
+    {
+      "id": "Q05",
+      "category": "薬剤比較",
+      "question": "腎機能が低下している患者に使用できる糖尿病薬は何ですか",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 医薬品添付文書およびガイドライン",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "腎機能障害",
+        "eGFR",
+        "リナグリプチン",
+        "用量調節不要",
+        "エンパグリフロジン",
+        "20mL/min/1.73m2"
+      ],
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "retrieved_files": [
+        "empagliflozin.pdf",
+        "sitagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "linagliptin.pdf",
+        "empagliflozin.pdf"
+      ]
+    },
+    {
+      "id": "Q06",
+      "category": "薬剤比較",
+      "question": "DPP-4阻害薬のジャヌビアとトラゼンタの腎機能低下時の使い分けを教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 医薬品添付文書およびガイドライン",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "シタグリプチン",
+        "50mg",
+        "12.5mg",
+        "CrCl",
+        "30未満",
+        "リナグリプチン",
+        "5mg",
+        "用量調節"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "retrieved_files": [
+        "glimepiride.pdf",
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "sitagliptin.pdf",
+        "linagliptin.pdf"
+      ]
+    },
+    {
+      "id": "Q07",
+      "category": "薬剤比較",
+      "question": "インスリン グラルギンとインスリン アスパルトの違いを教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 提供された情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "持効型",
+        "超速効型",
+        "作用発現時間",
+        "10〜20分"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.667,
+      "retrieved_files": [
+        "insulin_aspart.pdf"
+      ],
+      "relevant_docs": [
+        "insulin_glargine.pdf",
+        "insulin_aspart.pdf"
+      ]
+    },
+    {
+      "id": "Q08",
+      "category": "ガイドライン",
+      "question": "糖尿病の血糖コントロール目標を教えてください",
+      "answer": "糖尿病の血糖コントロール目標は以下の通りです：\n\n- HbA1c：7.0%未満\n- 空腹時血糖：130 mg/dl未満\n\nこれらの目標は、血糖およびリスク因子の管理と合併症抑制を目的としています。\n\n参照文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.333,
+      "matched_keywords": [
+        "HbA1c",
+        "7.0%未満"
+      ],
+      "unmatched_keywords": [
+        "グリコアルブミン",
+        "20%未満",
+        "6.0%",
+        "8.0%"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ]
+    },
+    {
+      "id": "Q09",
+      "category": "ガイドライン",
+      "question": "2型糖尿病の薬物療法の第一選択薬は何ですか",
+      "answer": "提供された文書には、2型糖尿病の薬物療法の第一選択薬についての具体的な記載がありません。したがって、正確な回答を提供することができません。\n\n参照した文書名: 糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "ビグアナイド",
+        "単剤で開始",
+        "ステップ1",
+        "eGFR",
+        "30ml/分/1.73m2",
+        "食事療法",
+        "運動療法"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "retrieved_files": [
+        "metformin.pdf",
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ]
+    },
+    {
+      "id": "Q10",
+      "category": "横断検索",
+      "question": "心血管疾患を合併した2型糖尿病患者に推奨される薬剤は何ですか",
+      "answer": "提供された文書には、心血管疾患を合併した2型糖尿病患者に推奨される具体的な薬剤についての記載がありません。心血管疾患の既往がある場合は積極的に投与開始してよいとされていますが、具体的な薬剤名は示されていません。\n\n参照した文書名: 133, D．）",
+      "keyword_score": 0.143,
+      "matched_keywords": [
+        "心血管疾患"
+      ],
+      "unmatched_keywords": [
+        "SGLT2阻害薬",
+        "心不全",
+        "微量アルブミン尿",
+        "肥満",
+        "1剤上乗せ",
+        "ステップ2"
+      ],
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf",
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf",
+        "semaglutide.pdf",
+        "diabetes_manual_2025.pdf"
+      ]
+    }
+  ]
+}

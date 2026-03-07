@@ -1,0 +1,312 @@
+{
+  "strategy": "C",
+  "description": "セクションベース分割",
+  "avg_keyword_score": 0.15,
+  "avg_precision": 0.458,
+  "avg_recall": 0.867,
+  "avg_f1": 0.552,
+  "details": [
+    {
+      "id": "Q01",
+      "category": "禁忌",
+      "question": "メトホルミンの禁忌を教えてください",
+      "answer": "メトホルミンの禁忌は以下の通りです：\n\n1. 低血糖症状を呈している患者\n2. 重症ケトーシス、糖尿病性昏睡又は前昏睡、インスリン依存型糖尿病（若年型糖尿病、ブリットル型糖尿病等）の患者\n3. 重篤な肝又は腎機能障害のある患者\n4. 重症感染症、手術前後、重篤な外傷のある患者\n5. 下痢、嘔吐等の胃腸障害のある患者\n6. 妊婦又は妊娠している可能性のある女性\n7. 本剤の成分又はスルホンアミド系薬剤に対し過敏症の既往歴のある患者\n\n参照文書名：提供された情報",
+      "keyword_score": 0.4,
+      "matched_keywords": [
+        "重症ケトーシス",
+        "糖尿病性昏睡",
+        "重症感染症",
+        "手術",
+        "妊娠",
+        "過敏症"
+      ],
+      "unmatched_keywords": [
+        "乳酸アシドーシス",
+        "重度の腎機能障害",
+        "eGFR",
+        "30ml/min/1.73m2未満",
+        "重度の肝機能障害",
+        "低酸素血症",
+        "脱水",
+        "1型糖尿病",
+        "アルコール"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.333,
+      "retrieved_files": [
+        "metformin.pdf",
+        "insulin_glargine.pdf",
+        "glimepiride.pdf",
+        "insulin_aspart.pdf",
+        "linagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "metformin.pdf"
+      ]
+    },
+    {
+      "id": "Q02",
+      "category": "用法用量",
+      "question": "グリメピリドの用法・用量を教えてください",
+      "answer": "グリメピリドの用法・用量は、通常、1日0.5～1 mgより開始し、1日1～2回、朝または朝夕、食前または食後に経口投与します。維持量は通常1日1～4 mgで、必要に応じて適宜増減します。なお、1日最高投与量は6 mgまでとされています。\n\n参照文書名：医薬品添付文書",
+      "keyword_score": 0.6,
+      "matched_keywords": [
+        "1日1～2回",
+        "朝",
+        "食前",
+        "食後",
+        "維持量",
+        "最高投与量"
+      ],
+      "unmatched_keywords": [
+        "0.5mg",
+        "1mg",
+        "1～4mg",
+        "6mg"
+      ],
+      "precision": 0.333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "retrieved_files": [
+        "glimepiride.pdf",
+        "sitagliptin.pdf",
+        "linagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "glimepiride.pdf"
+      ]
+    },
+    {
+      "id": "Q03",
+      "category": "副作用",
+      "question": "エンパグリフロジンの主な副作用を教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 医薬品添付文書およびガイドライン",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "低血糖",
+        "脱水",
+        "ケトアシドーシス",
+        "腎盂腎炎",
+        "尿路感染症",
+        "膀胱炎",
+        "頻尿",
+        "多尿",
+        "口渇",
+        "体重減少"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf",
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf"
+      ]
+    },
+    {
+      "id": "Q04",
+      "category": "禁忌",
+      "question": "オゼンピックの禁忌を教えてください",
+      "answer": "提供された文書には、オゼンピックの禁忌に関する具体的な情報は記載されていません。したがって、オゼンピックの禁忌についてはお答えできません。\n\n参照した文書名: 提供された情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "過敏症",
+        "糖尿病性ケトアシドーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術"
+      ],
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.333,
+      "retrieved_files": [
+        "insulin_glargine.pdf",
+        "glimepiride.pdf",
+        "empagliflozin.pdf",
+        "semaglutide.pdf",
+        "insulin_aspart.pdf"
+      ],
+      "relevant_docs": [
+        "semaglutide.pdf"
+      ]
+    },
+    {
+      "id": "Q05",
+      "category": "薬剤比較",
+      "question": "腎機能が低下している患者に使用できる糖尿病薬は何ですか",
+      "answer": "提供された文書には、腎機能が低下している患者に使用できる糖尿病薬についての具体的な情報は記載がありません。腎機能障害患者に対する本剤の使用に関しては、特に高度腎機能障害患者や透析中の末期腎不全患者には投与しないことが推奨されています。また、中等度腎機能障害患者に対しては、投与の必要性を慎重に判断することが求められています。\n\n参照した文書名: 添付文書およびガイドライン",
+      "keyword_score": 0.167,
+      "matched_keywords": [
+        "腎機能障害"
+      ],
+      "unmatched_keywords": [
+        "eGFR",
+        "リナグリプチン",
+        "用量調節不要",
+        "エンパグリフロジン",
+        "20mL/min/1.73m2"
+      ],
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "retrieved_files": [
+        "insulin_aspart.pdf",
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "linagliptin.pdf",
+        "empagliflozin.pdf"
+      ]
+    },
+    {
+      "id": "Q06",
+      "category": "薬剤比較",
+      "question": "DPP-4阻害薬のジャヌビアとトラゼンタの腎機能低下時の使い分けを教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 医薬品添付文書およびガイドライン",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "シタグリプチン",
+        "50mg",
+        "12.5mg",
+        "CrCl",
+        "30未満",
+        "リナグリプチン",
+        "5mg",
+        "用量調節"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1": 0.286,
+      "retrieved_files": [
+        "glimepiride.pdf",
+        "empagliflozin.pdf",
+        "semaglutide.pdf",
+        "insulin_aspart.pdf",
+        "sitagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "sitagliptin.pdf",
+        "linagliptin.pdf"
+      ]
+    },
+    {
+      "id": "Q07",
+      "category": "薬剤比較",
+      "question": "インスリン グラルギンとインスリン アスパルトの違いを教えてください",
+      "answer": "インスリン グラルギンとインスリン アスパルトの主な違いは、作用機序と薬物動態にあります。\n\n1. **作用機序**:\n   - **インスリン グラルギン**は、低い溶解性を示すように設計されたヒトインスリンアナログであり、皮下に投与されると生理的pHにより微細な沈殿物を形成し、そこから緩やかに溶解して血中に移行します。これにより、持続的な血糖降下作用を示します。\n   - **インスリン アスパルト**は、インスリンB鎖28位のプロリン残基をアスパラギン酸に置換したインスリンアナログで、二量体形成を阻害する性質を持ちます。皮下注射後、急速に二量体、単量体へと解離し、速やかに血中に移行して短時間で血糖降下作用を発現します。\n\n2. **薬物動態**:\n   - **インスリン グラルギン**は、24時間にわたり安定した血糖降下作用を示し、平坦で持続的な薬物動態を持っています。\n   - **インスリン アスパルト**は、速効型であり、食直前に投与することが推奨され、作用発現が速いです。\n\nこれらの違いにより、インスリン グラルギンは持続的な血糖管理に適しており、インスリン アスパルトは食事に合わせた迅速な血糖降下に適しています。\n\n参照文書名: 添付文書およびガイドライン情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "持効型",
+        "超速効型",
+        "作用発現時間",
+        "10〜20分"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "insulin_aspart.pdf",
+        "insulin_glargine.pdf"
+      ],
+      "relevant_docs": [
+        "insulin_glargine.pdf",
+        "insulin_aspart.pdf"
+      ]
+    },
+    {
+      "id": "Q08",
+      "category": "ガイドライン",
+      "question": "糖尿病の血糖コントロール目標を教えてください",
+      "answer": "糖尿病の血糖コントロール目標は以下の通りです：\n\n- HbA1c：7.0%未満\n- 空腹時血糖：130 mg/dl未満\n\nこれらの目標は、糖尿病の管理において重要な指標とされています。\n\n参照文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.333,
+      "matched_keywords": [
+        "HbA1c",
+        "7.0%未満"
+      ],
+      "unmatched_keywords": [
+        "グリコアルブミン",
+        "20%未満",
+        "6.0%",
+        "8.0%"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ]
+    },
+    {
+      "id": "Q09",
+      "category": "ガイドライン",
+      "question": "2型糖尿病の薬物療法の第一選択薬は何ですか",
+      "answer": "提供された文書には、2型糖尿病の薬物療法の第一選択薬についての具体的な記載がありません。したがって、正確な回答を提供することはできません。\n\n参照した文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "ビグアナイド",
+        "単剤で開始",
+        "ステップ1",
+        "eGFR",
+        "30ml/分/1.73m2",
+        "食事療法",
+        "運動療法"
+      ],
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "retrieved_files": [
+        "glimepiride.pdf",
+        "metformin.pdf",
+        "diabetes_manual_2025.pdf",
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ]
+    },
+    {
+      "id": "Q10",
+      "category": "横断検索",
+      "question": "心血管疾患を合併した2型糖尿病患者に推奨される薬剤は何ですか",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "SGLT2阻害薬",
+        "心血管疾患",
+        "心不全",
+        "微量アルブミン尿",
+        "肥満",
+        "1剤上乗せ",
+        "ステップ2"
+      ],
+      "precision": 0.4,
+      "recall": 0.667,
+      "f1": 0.5,
+      "retrieved_files": [
+        "metformin.pdf",
+        "insulin_glargine.pdf",
+        "glimepiride.pdf",
+        "diabetes_manual_2025.pdf",
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf",
+        "semaglutide.pdf",
+        "diabetes_manual_2025.pdf"
+      ]
+    }
+  ]
+}

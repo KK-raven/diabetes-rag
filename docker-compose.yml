@@ -1,0 +1,50 @@
+version: '3.9'
+
+services:
+  rag:
+    build: .
+    container_name: diabetes-rag
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+      - jupyter_settings:/root/.local/share/jupyter
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
+
+  api:
+    build: .
+    container_name: diabetes-rag-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+    # ragへの依存を削除：APIはJupyterLabに依存しない
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  ui:
+    build: .
+    container_name: diabetes-rag-ui
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    command: streamlit run ui/app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      api:
+        condition: service_healthy  # APIが/healthに応答するまで待機
+
+volumes:
+  jupyter_settings:

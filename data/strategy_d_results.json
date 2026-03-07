@@ -1,0 +1,372 @@
+{
+  "strategy": "D",
+  "description": "セクションベース分割＋セクションフィルタ",
+  "avg_keyword_score": 0.315,
+  "avg_precision": 0.883,
+  "avg_recall": 0.883,
+  "avg_f1": 0.867,
+  "details": [
+    {
+      "id": "Q01",
+      "category": "禁忌",
+      "question": "メトホルミンの禁忌を教えてください",
+      "answer": "メトホルミンの禁忌は以下の通りです：\n\n1. 乳酸アシドーシスの既往のある患者\n2. 重度の腎機能障害（eGFR 30mL/min/1.73m²未満）のある患者又は透析患者（腹膜透析を含む）\n3. 重度の肝機能障害のある患者\n4. 心血管系、肺機能に高度の障害（ショック、心不全、心筋梗塞、肺塞栓等）のある患者及びその他の低酸素血症を伴いやすい状態にある患者\n5. 脱水症の患者又は脱水状態が懸念される患者（下痢、嘔吐等の胃腸障害のある患者、経口摂取が困難な患者等）\n6. 過度のアルコール摂取者\n7. 重症ケトーシス、糖尿病性昏睡又は前昏睡、1型糖尿病の患者\n8. 重症感染症、手術前後、重篤な外傷のある患者\n9. 栄養不良状態、飢餓状態、衰弱状態、脳下垂体機能不全又は副腎機能不全の患者\n10. 妊婦又は妊娠している可能性のある女性\n11. 本剤の成分又はビグアナイド系薬剤に対し過敏症の既往歴のある患者\n\n参照文書：メトグルコ錠添付文書",
+      "keyword_score": 0.933,
+      "matched_keywords": [
+        "乳酸アシドーシス",
+        "重度の腎機能障害",
+        "eGFR",
+        "重度の肝機能障害",
+        "低酸素血症",
+        "脱水",
+        "重症ケトーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術",
+        "妊娠",
+        "過敏症",
+        "アルコール"
+      ],
+      "unmatched_keywords": [
+        "30ml/min/1.73m2未満"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "metformin.pdf"
+      ],
+      "relevant_docs": [
+        "metformin.pdf"
+      ],
+      "section_filter": [
+        "1.",
+        "2.",
+        "8.",
+        "10.",
+        "14.",
+        "16."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q02",
+      "category": "用法用量",
+      "question": "グリメピリドの用法・用量を教えてください",
+      "answer": "グリメピリドの用法・用量は、通常1日0.5～1 mgから開始し、1日1～2回、朝または朝夕、食前または食後に経口投与します。維持量は通常1日1～4 mgで、必要に応じて適宜増減します。なお、1日最高投与量は6 mgまでとされています。\n\n参照文書名：アマリール添付文書",
+      "keyword_score": 0.6,
+      "matched_keywords": [
+        "1日1～2回",
+        "朝",
+        "食前",
+        "食後",
+        "維持量",
+        "最高投与量"
+      ],
+      "unmatched_keywords": [
+        "0.5mg",
+        "1mg",
+        "1～4mg",
+        "6mg"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "glimepiride.pdf"
+      ],
+      "relevant_docs": [
+        "glimepiride.pdf"
+      ],
+      "section_filter": [
+        "6.",
+        "7.",
+        "8.",
+        "9."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q03",
+      "category": "副作用",
+      "question": "エンパグリフロジンの主な副作用を教えてください",
+      "answer": "提供された文書にはエンパグリフロジンの主な副作用に関する具体的な情報が記載されていません。したがって、詳細な副作用についてはお答えできません。\n\n参照した文書名：選択的SGLT2阻害剤 －2型糖尿病・慢性心不全・慢性腎臓病治療剤－エンパグリフロジン製剤",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "低血糖",
+        "脱水",
+        "ケトアシドーシス",
+        "腎盂腎炎",
+        "尿路感染症",
+        "膀胱炎",
+        "頻尿",
+        "多尿",
+        "口渇",
+        "体重減少"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf"
+      ],
+      "section_filter": [
+        "1.",
+        "8.",
+        "9.",
+        "11."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q04",
+      "category": "禁忌",
+      "question": "オゼンピックの禁忌を教えてください",
+      "answer": "オゼンピックの禁忌は以下の通りです。\n\n1. 本剤の成分に対し過敏症の既往歴のある患者\n2. 糖尿病性ケトアシドーシス、糖尿病性昏睡又は前昏睡、1型糖尿病の患者（インスリン製剤による速やかな治療が必須となるため、本剤を投与すべきでない）\n3. 重症感染症、手術等の緊急の場合（インスリン製剤による血糖管理が望まれるため、本剤の投与は適さない）\n\n参照文書名: 提供された情報",
+      "keyword_score": 1.0,
+      "matched_keywords": [
+        "過敏症",
+        "糖尿病性ケトアシドーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術"
+      ],
+      "unmatched_keywords": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "semaglutide.pdf"
+      ],
+      "relevant_docs": [
+        "semaglutide.pdf"
+      ],
+      "section_filter": [
+        "1.",
+        "2.",
+        "8.",
+        "10.",
+        "14.",
+        "16."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q05",
+      "category": "薬剤比較",
+      "question": "腎機能が低下している患者に使用できる糖尿病薬は何ですか",
+      "answer": "提供された文書には、腎機能が低下している患者に使用できる糖尿病薬についての具体的な記載がありません。したがって、腎機能が低下している患者に使用できる糖尿病薬についてはお答えできません。\n\n参照した文書名: 提供された情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "腎機能障害",
+        "eGFR",
+        "リナグリプチン",
+        "用量調節不要",
+        "エンパグリフロジン",
+        "20mL/min/1.73m2"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "retrieved_files": [
+        "glimepiride.pdf",
+        "empagliflozin.pdf",
+        "linagliptin.pdf",
+        "insulin_glargine.pdf"
+      ],
+      "relevant_docs": [
+        "linagliptin.pdf",
+        "empagliflozin.pdf"
+      ],
+      "section_filter": [
+        "6.",
+        "7.",
+        "8.",
+        "9.",
+        "1.",
+        "2.",
+        "14.",
+        "16."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q06",
+      "category": "薬剤比較",
+      "question": "DPP-4阻害薬のジャヌビアとトラゼンタの腎機能低下時の使い分けを教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 提供された情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "シタグリプチン",
+        "50mg",
+        "12.5mg",
+        "CrCl",
+        "30未満",
+        "リナグリプチン",
+        "5mg",
+        "用量調節"
+      ],
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.667,
+      "retrieved_files": [
+        "linagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "sitagliptin.pdf",
+        "linagliptin.pdf"
+      ],
+      "section_filter": [
+        "6.",
+        "7.",
+        "8.",
+        "9.",
+        "1.",
+        "2.",
+        "14.",
+        "16."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q07",
+      "category": "薬剤比較",
+      "question": "インスリン グラルギンとインスリン アスパルトの違いを教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照した文書名: 医薬品添付文書およびガイドライン",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "持効型",
+        "超速効型",
+        "作用発現時間",
+        "10〜20分"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "insulin_aspart.pdf",
+        "insulin_glargine.pdf"
+      ],
+      "relevant_docs": [
+        "insulin_glargine.pdf",
+        "insulin_aspart.pdf"
+      ],
+      "section_filter": [
+        "8.",
+        "9.",
+        "13.",
+        "15.",
+        "18."
+      ],
+      "is_guideline": false
+    },
+    {
+      "id": "Q08",
+      "category": "ガイドライン",
+      "question": "糖尿病の血糖コントロール目標を教えてください",
+      "answer": "糖尿病の血糖コントロール目標は以下の通りです：\n\n- HbA1c：7.0%未満\n- 空腹時血糖：130 mg/dl未満\n\nこれらの目標は、糖尿病の管理において重要な指標とされています。\n\n参照文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.333,
+      "matched_keywords": [
+        "HbA1c",
+        "7.0%未満"
+      ],
+      "unmatched_keywords": [
+        "グリコアルブミン",
+        "20%未満",
+        "6.0%",
+        "8.0%"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "section_filter": [],
+      "is_guideline": true
+    },
+    {
+      "id": "Q09",
+      "category": "ガイドライン",
+      "question": "2型糖尿病の薬物療法の第一選択薬は何ですか",
+      "answer": "提供された文書には、2型糖尿病の薬物療法の第一選択薬についての具体的な記載がありません。したがって、正確な回答を提供することができません。\n\n参照した文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "ビグアナイド",
+        "単剤で開始",
+        "ステップ1",
+        "eGFR",
+        "30ml/分/1.73m2",
+        "食事療法",
+        "運動療法"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "section_filter": [],
+      "is_guideline": true
+    },
+    {
+      "id": "Q10",
+      "category": "横断検索",
+      "question": "心血管疾患を合併した2型糖尿病患者に推奨される薬剤は何ですか",
+      "answer": "心血管疾患を合併した2型糖尿病患者に推奨される薬剤は、ACEI（アンジオテンシン変換酵素阻害薬）またはARB（アンジオテンシンⅡ受容体拮抗薬）です。これらは腎保護を図るために使用され、冠動脈疾患合併の場合も第1選択薬となります。また、心不全合併の場合はACEIを優先することが推奨されています。\n\n参照文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.286,
+      "matched_keywords": [
+        "心血管疾患",
+        "心不全"
+      ],
+      "unmatched_keywords": [
+        "SGLT2阻害薬",
+        "微量アルブミン尿",
+        "肥満",
+        "1剤上乗せ",
+        "ステップ2"
+      ],
+      "precision": 0.333,
+      "recall": 0.333,
+      "f1": 0.333,
+      "retrieved_files": [
+        "glimepiride.pdf",
+        "metformin.pdf",
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf",
+        "semaglutide.pdf",
+        "diabetes_manual_2025.pdf"
+      ],
+      "section_filter": [
+        "1.",
+        "2.",
+        "8.",
+        "10.",
+        "14.",
+        "16.",
+        "6.",
+        "7.",
+        "9."
+      ],
+      "is_guideline": true
+    }
+  ]
+}

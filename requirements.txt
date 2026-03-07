@@ -1,0 +1,15 @@
+langchain==0.3.7
+langchain-openai==0.2.8
+langchain-chroma==0.1.4
+chromadb==0.5.18
+pypdf==5.1.0
+python-dotenv==1.0.1
+tiktoken==0.8.0
+ragas==0.2.6
+pandas==2.2.3
+jupyter==1.1.1
+pymupdf==1.24.11
+matplotlib==3.9.0
+fastapi==0.115.0
+uvicorn==0.32.0
+streamlit==1.40.0

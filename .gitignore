@@ -1,0 +1,19 @@
+# APIキー
+.env
+
+# PDFデータ（著作権・容量の問題）
+data/raw/
+data/chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/data/chroma/
+.Trash-0/
+data/chroma/
+data/saved/
+.ipynb_checkpoints/

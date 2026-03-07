@@ -1,0 +1,305 @@
+{
+  "strategy": "A",
+  "description": "文字数ベース chunk_size=500 overlap=50",
+  "avg_keyword_score": 0.166,
+  "avg_precision": 0.573,
+  "avg_recall": 0.783,
+  "avg_f1": 0.637,
+  "details": [
+    {
+      "id": "Q01",
+      "category": "禁忌",
+      "question": "メトホルミンの禁忌を教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照文書名: メトグルコ錠添付文書",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "乳酸アシドーシス",
+        "重度の腎機能障害",
+        "eGFR",
+        "30ml/min/1.73m2未満",
+        "重度の肝機能障害",
+        "低酸素血症",
+        "脱水",
+        "重症ケトーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術",
+        "妊娠",
+        "過敏症",
+        "アルコール"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf",
+        "metformin.pdf"
+      ],
+      "relevant_docs": [
+        "metformin.pdf"
+      ]
+    },
+    {
+      "id": "Q02",
+      "category": "用法用量",
+      "question": "グリメピリドの用法・用量を教えてください",
+      "answer": "グリメピリドの用法・用量は、通常、グリメピリドとして1日0.5～1 mgより開始し、1日1～2回、朝または朝夕、食前または食後に経口投与します。維持量は通常1日1～4 mgで、必要に応じて適宜増減します。なお、1日最高投与量は6 mgまでとします。\n\n参照文書名: 添付文書",
+      "keyword_score": 0.6,
+      "matched_keywords": [
+        "1日1～2回",
+        "朝",
+        "食前",
+        "食後",
+        "維持量",
+        "最高投与量"
+      ],
+      "unmatched_keywords": [
+        "0.5mg",
+        "1mg",
+        "1～4mg",
+        "6mg"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "glimepiride.pdf"
+      ],
+      "relevant_docs": [
+        "glimepiride.pdf"
+      ]
+    },
+    {
+      "id": "Q03",
+      "category": "副作用",
+      "question": "エンパグリフロジンの主な副作用を教えてください",
+      "answer": "提供された文書には記載がありません。 \n\n参照文書名: 医薬品添付文書およびガイドライン",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "低血糖",
+        "脱水",
+        "ケトアシドーシス",
+        "腎盂腎炎",
+        "尿路感染症",
+        "膀胱炎",
+        "頻尿",
+        "多尿",
+        "口渇",
+        "体重減少"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "empagliflozin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf"
+      ]
+    },
+    {
+      "id": "Q04",
+      "category": "禁忌",
+      "question": "オゼンピックの禁忌を教えてください",
+      "answer": "提供された文書にはオゼンピックの禁忌に関する具体的な記載がありません。したがって、禁忌についての情報は提供できません。\n\n参照文書名: MOS000441",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "過敏症",
+        "糖尿病性ケトアシドーシス",
+        "糖尿病性昏睡",
+        "1型糖尿病",
+        "重症感染症",
+        "手術"
+      ],
+      "precision": 0.333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "retrieved_files": [
+        "semaglutide.pdf",
+        "insulin_aspart.pdf",
+        "metformin.pdf"
+      ],
+      "relevant_docs": [
+        "semaglutide.pdf"
+      ]
+    },
+    {
+      "id": "Q05",
+      "category": "薬剤比較",
+      "question": "腎機能が低下している患者に使用できる糖尿病薬は何ですか",
+      "answer": "提供された文書には、腎機能が低下している患者に使用できる糖尿病薬についての具体的な記載がありません。一般的には、SGLT2阻害薬は微量アルブミン尿や蛋白尿を有する場合に腎保護効果が期待されるため、積極的に投与開始してよいとされていますが、eGFRが15 ml／分／1.73 m²未満では新規に開始しないとされています。その他の糖尿病薬については、腎機能障害の影響を受ける可能性があるため、注意が必要です。\n\n参照文書名: 提供された情報",
+      "keyword_score": 0.333,
+      "matched_keywords": [
+        "腎機能障害",
+        "eGFR"
+      ],
+      "unmatched_keywords": [
+        "リナグリプチン",
+        "用量調節不要",
+        "エンパグリフロジン",
+        "20mL/min/1.73m2"
+      ],
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0,
+      "retrieved_files": [
+        "metformin.pdf",
+        "diabetes_manual_2025.pdf",
+        "sitagliptin.pdf",
+        "insulin_aspart.pdf"
+      ],
+      "relevant_docs": [
+        "linagliptin.pdf",
+        "empagliflozin.pdf"
+      ]
+    },
+    {
+      "id": "Q06",
+      "category": "薬剤比較",
+      "question": "DPP-4阻害薬のジャヌビアとトラゼンタの腎機能低下時の使い分けを教えてください",
+      "answer": "DPP-4阻害薬のジャヌビア（シタグリプチン）とトラゼンタ（リナグリプチン）の腎機能低下時の使い分けは以下の通りです。\n\n- **ジャヌビア（シタグリプチン）**:\n  - 中等度腎機能障害（eGFR 30～<50）: 25 mg\n  - 高度腎機能障害（eGFR <30）: 12.5 mg\n\n- **トラゼンタ（リナグリプチン）**:\n  - 中等度腎機能障害（eGFR 30～<50）: 5 mg\n  - 高度腎機能障害（eGFR <30）: 2.5 mg\n\nこのように、腎機能が低下した場合、ジャヌビアはトラゼンタよりも高用量で使用可能であり、腎機能に応じた用量調整が必要です。\n\n参照文書: 糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.25,
+      "matched_keywords": [
+        "シタグリプチン",
+        "リナグリプチン"
+      ],
+      "unmatched_keywords": [
+        "50mg",
+        "12.5mg",
+        "CrCl",
+        "30未満",
+        "5mg",
+        "用量調節"
+      ],
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1": 0.286,
+      "retrieved_files": [
+        "empagliflozin.pdf",
+        "diabetes_manual_2025.pdf",
+        "insulin_aspart.pdf",
+        "glimepiride.pdf",
+        "sitagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "sitagliptin.pdf",
+        "linagliptin.pdf"
+      ]
+    },
+    {
+      "id": "Q07",
+      "category": "薬剤比較",
+      "question": "インスリン グラルギンとインスリン アスパルトの違いを教えてください",
+      "answer": "インスリン グラルギンとインスリン アスパルトの主な違いは、構造と作用機序にあります。\n\n1. **構造**:\n   - インスリン グラルギンは、ヒトインスリンのアナログであり、特にpH4の環境で低い溶解性を示すように設計されています。皮下に投与されると微細な沈殿物を形成し、緩やかに吸収されます。\n   - インスリン アスパルトは、インスリンB鎖28位のプロリン残基をアスパラギン酸に置換したインスリンアナログであり、二量体形成を阻害する性質を持っています。これにより、皮下注射後に速やかに血中に移行します。\n\n2. **作用機序**:\n   - インスリン グラルギンは、持続的な血糖降下作用を示し、24時間にわたり安定した効果を持つことが期待されます。\n   - インスリン アスパルトは、速やかに血糖降下作用を発現し、短時間で効果を示します。\n\nこれらの違いにより、インスリン グラルギンは基礎インスリンとして使用されることが多く、インスリン アスパルトは食後の血糖コントロールに使用されることが一般的です。\n\n参照文書: 提供された情報",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "持効型",
+        "超速効型",
+        "作用発現時間",
+        "10〜20分"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "insulin_glargine.pdf",
+        "insulin_aspart.pdf"
+      ],
+      "relevant_docs": [
+        "insulin_glargine.pdf",
+        "insulin_aspart.pdf"
+      ]
+    },
+    {
+      "id": "Q08",
+      "category": "ガイドライン",
+      "question": "糖尿病の血糖コントロール目標を教えてください",
+      "answer": "糖尿病の血糖コントロール目標は以下の通りです：\n\n- HbA1c：7.0%未満\n- 空腹時血糖：130 mg/dl未満\n\nこれらの目標は、糖尿病の管理において重要な指標とされています。\n\n参照文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.333,
+      "matched_keywords": [
+        "HbA1c",
+        "7.0%未満"
+      ],
+      "unmatched_keywords": [
+        "グリコアルブミン",
+        "20%未満",
+        "6.0%",
+        "8.0%"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ]
+    },
+    {
+      "id": "Q09",
+      "category": "ガイドライン",
+      "question": "2型糖尿病の薬物療法の第一選択薬は何ですか",
+      "answer": "提供された文書には、2型糖尿病の薬物療法の第一選択薬についての具体的な記載がありません。したがって、正確な回答を提供することができません。\n\n参照文書名：糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.0,
+      "matched_keywords": [],
+      "unmatched_keywords": [
+        "ビグアナイド",
+        "単剤で開始",
+        "ステップ1",
+        "eGFR",
+        "30ml/分/1.73m2",
+        "食事療法",
+        "運動療法"
+      ],
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.667,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf",
+        "metformin.pdf"
+      ],
+      "relevant_docs": [
+        "diabetes_manual_2025.pdf"
+      ]
+    },
+    {
+      "id": "Q10",
+      "category": "横断検索",
+      "question": "心血管疾患を合併した2型糖尿病患者に推奨される薬剤は何ですか",
+      "answer": "提供された文書には、心血管疾患を合併した2型糖尿病患者に推奨される薬剤についての具体的な記載がありません。したがって、正確な回答を提供することはできません。\n\n参照文書名: 糖尿病標準診療マニュアル2025",
+      "keyword_score": 0.143,
+      "matched_keywords": [
+        "心血管疾患"
+      ],
+      "unmatched_keywords": [
+        "SGLT2阻害薬",
+        "心不全",
+        "微量アルブミン尿",
+        "肥満",
+        "1剤上乗せ",
+        "ステップ2"
+      ],
+      "precision": 0.2,
+      "recall": 0.333,
+      "f1": 0.25,
+      "retrieved_files": [
+        "diabetes_manual_2025.pdf",
+        "metformin.pdf",
+        "insulin_aspart.pdf",
+        "glimepiride.pdf",
+        "sitagliptin.pdf"
+      ],
+      "relevant_docs": [
+        "empagliflozin.pdf",
+        "semaglutide.pdf",
+        "diabetes_manual_2025.pdf"
+      ]
+    }
+  ]
+}
